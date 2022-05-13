@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>天天有余 - Reduce Food Waste Mini Program</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><img src="assets/logo.png" alt="logo"></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbarItem">
+            <a href="#home" class="navbarLinks" id="home-page">Home</a>
+          </li>
+          <li class="navbarItem">
+            <a href="#about" class="navbarLinks" id="about-page">About</a>
+          </li>
+          <li class="navbarItem">
+            <a href="#how_it_works" class="navbarLinks" id="how-it-works-page">How It Works</a>
+          </li>
+          <li class="navbarItem">
+            <a href="#get_involved" class="navbarLinks" id="get-involved-page">Get Involved</a>
+          </li>
+          <li class="navbarItem">
+            <a href="#contact" class="navbarLinks" id="contact-page">Contact</a>
+          </li>
+          <li class="navbarBtn">
+            <a href="#download" class="button" id="download-page">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Reducing Food Waste One Day At A Time.</h1>
+        <button class="main__btn"><a href="#">Get Started</a></button>
+      </div>
+    </div>
+
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+          <h2>China's Food Waste Issue</h2>
+          <p>According to The Chinese Academy of Sciences, 17 to 18 million tons 
+            of food were wasted at the point of consumption in 2015 in four 
+            of China's biggest cities, which is enough to feed 50 million 
+            people per year. The issue is so extreme that landfills are reaching 
+            maximum capacity and are unable to meet pollution-control standards. 
+            If not dealt with, this can lead to major environmental, hygiene, and safety problems.</p>
+            <h2>What is 天天有余?</h2>
+            <p>The 天天有余 (tiān tiān yǒuyú) WeChat Mini-Program helps organizations take action against food
+              waste by providing a mobile platform for people to save delicious surplus food through a give and take system.</p>
+            <h2>Our Mission</h2>
+            <p>We want to inspire everyone to take action against food waste. Our <br> 天天有余 Mini Program makes it easy to start combating food waste with just a few clicks. 
+            </p>
+          <button class="main__btn"><a href="#get_involved">Learn How You Can Get Involved Now</a></button>
+        </div>
+        <div class="main__img--container">
+          <img src="assets/waste.jpeg" alt="Food Waste" width = 85% height = 85%>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+    <!-- How It Works Section -->
+    <div class="main how" id="how_it_works">
+      <div class="main__container" id="vidCont">
+        <div class="main__content">
+          <h1>How It Works</h1>
+          <iframe width="1000" height="600" src="https://www.youtube.com/embed/SXCtC82UbDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+    <!-- Get Involved Section -->
+    <div class="main how" id="get_involved">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Get Involved</h1>
+          <h3>Step 1: Sign Up As An Admin</h3>
+          <p>To setup the mini program within your organization, you must have one person sign up
+            as the administrator. The administrator is someone who wants to start a system in their
+            own organization to reduce food waste. Their responsibilities include setting up the logistics of the system and 
+            promoting the mini program and initiative, getting people on board with the system.</p>
+          <h3>Step 2: Distribute QR Codes</h3>
+          <p>Once the admin finishes setting up the logistics of the system and the organization is fully integrated
+            into the mini program, we will send the administrator a QR Code. This QR code must be distributed in the 
+          organization, whether by word or mouth or put up on poster, allowing people to join the mini program seamlessly.</p>
+          <h3>Step 3: User Sign Up</h3>
+          <p>People in your organization will scan the QR  codes to join 天天有余. </p>
+          <h3>Step 4: Complete Profile</h3>
+          <p>After scanning the QR code, the individual will be asked to join their respective organization and fill out information on their 
+            food and notification preferences. Upon completing the questionnaire, the profile will
+            be complete and the mini-program is ready to use.</p>      
+        </div>
+        <div class="main__img--container">
+          <img src="assets/takePicture.png" alt="Taking Picture on Phone">
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+    <!-- Contact Section -->
+    <div class="main how" id="contact">
+      <div class="main__container" id="full">
+        <div class="main__content">
+          <h1>Contact</h1>
+          <h3>Do you have any questions, suggestions, or feedback? We'd love to hear from you!</h3>
+            <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="First Name">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Email">
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Send">
+          
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Download Section -->
+    <div class="main" id="download">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Start Combating Food Waste Today.</h1>
+          <h2>Scan QR Code To Download</h2>
+          <img src="assets/qr.png" alt="QR Code">
+        </div>
+        <div class="main__img--container">
+          <img src="assets/download.png" alt="app welcome screen">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <p class="websiteRights">© 天天有余 2022. All rights reserved。</p>
+
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
